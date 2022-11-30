@@ -1,0 +1,321 @@
+body{
+    margin: 0 ;font-family: 'Open Sans', sans-serif;
+   
+}
+
+.container  {
+    margin:0px 166px;
+}
+
+.header{
+    background-image: url(BG.jpg);
+    height: 300vh;
+  
+    
+   
+    
+    background-repeat: no-repeat;
+   background-size: cover ;
+}
+
+.header-line {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+    
+}
+
+
+.nav-item{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 25px;
+    transition: color 0.3s linear;
+}
+.nav-item:hover{
+    color: brown
+}
+
+
+.num {
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+     transition: color 0.3s linear;
+}
+.num:hover{
+        color: brown
+}
+
+.phone-text{
+   font-size: 14px;
+    font-weight: 400;
+    
+}
+
+.phone-holder {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.button{
+    background-color: darkred;
+    color: white;
+    padding: 14px 18px;
+    font-weight: 700;
+      transition: color 0.3s linear;
+}
+.button:hover{
+    background-color: firebrick;
+
+}
+
+.header-down{
+  
+}
+
+
+
+.header-titile{
+    color:black;
+    font-size: 70px;
+    margin-right: 20px ;
+  font-family: 'Titan One', cursive;
+
+    padding: 50px 530px;
+    
+   
+
+}  
+
+.header-titile span {
+    color: darkred;
+}
+.header-subtitile{
+
+   
+}
+
+.header-button{
+     background-color: rgba(178, 34, 34, 0.94);
+    padding: 14px 18px;
+    color: white;
+     font-size:15px;
+     font-weight: 700;
+    font-family: 'Titan One', cursive;
+    text-decoration: none;
+    margin-left:220px;
+    transition: color 0.3s linear;
+   
+}
+
+.header-button:hover{
+    background-color: darkred;
+}
+
+
+.cards-holder{
+    
+    
+    display: flex ;
+    
+}
+.card-image{
+    display: flex;
+    justify-content: center ;
+}
+
+.card{
+    
+    background-color:rgba(255, 255, 255, 0.59);
+    width: 325px ;
+    height: 225px;
+    margin-right: 120px ;
+    justify-content: center;
+    margin-top: 70px ;
+}
+.card-title{
+    display: flex;
+    justify-content: center ;
+    color: darkred;
+    
+}
+
+
+.card-desc{
+    text-align: center;
+    justify-content: center ;
+    font-family: 'Titan One', cursive;
+}
+
+.history-title{
+     font-family: 'Titan One', cursive;
+    font-size: 54px;
+    font-weight: 400;
+    margin-top: -1800px;
+    
+    
+}
+
+.history-title span{
+    
+    color: darkred ;
+}
+
+.history-desc{
+  font-family: 'Titan One', cursive;
+    width: 550px;
+   height: 600px;
+    text-align: center;
+    font-size: 19px;
+}
+
+
+.history-number{
+    display: flex;
+    width: 444px;
+    padding: 50px 25px;
+    font-size: 25px;
+    
+    
+}
+.number-item{
+    margin-right:60px;
+    text-align: center;
+    color: darkred ;
+}
+.number-item span{
+    display: block;
+     text-align: center;
+    color: black ;
+    
+   
+    
+}
+
+.history-holder{
+
+display: flex ;
+    justify-content: space-between ;
+
+}
+
+.history-image {
+    position: relative ;
+     top: -1800px ;
+    left: 0px;
+}
+
+.swim-title{
+   font-family: 'Titan One', cursive; 
+     margin-top: -1400px;
+    font-size: 54px;
+    width: 444px;
+  
+}
+
+.swim-title span {
+    
+    color: darkred;
+    
+}
+
+.swim-desc {
+    width: 444px;
+    
+     font-size: 20px;
+}
+.swim-desc span {
+     
+    text-align: center ;
+
+    
+}
+
+.swim-holder{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.swim-image{
+    position: relative ;
+    top: -1450px ;
+    left: 0px;
+}
+
+
+.map-title{
+    
+   font-family: 'Titan One', cursive; 
+    font-size: 54px ;
+     margin-top: -1360px;
+     margin-left: -100px;
+    
+}
+
+.map-desc{
+    
+    margin-top: 35px;
+    font-size: 25px ;
+    margin-left: -100px;
+    
+    
+}
+
+.map-desc span
+{
+ font-family: 'Arsenal', sans-serif;
+}
+
+.map-title span{
+    color: darkred ;
+    
+}
+
+
+.map-holder{
+display: flex;
+    justify-content: space-between;
+    
+}
+
+.map-image{
+    position: relative;
+    top: -1200px ;
+    left: 630px;
+    
+}
+.header-button1{
+     background-color:#00ff62;
+    color: white;
+    padding: 10px 14px;
+    font-weight: 200px;
+      transition: color 0.3s linear;
+
+    
+
+    
+}
+.header-btn1{
+    margin-top: -1150px;
+     margin-left:1200px;
+}
+
+.header-button1:hover{
+    background-color: #14f269;
+    
+}
+.futer{
+    
+    margin-top:  150px ;
+}
+logo-futer{
+    position: absolute;
+     margin-top:  500px ;
+     margin-left:1200px;
+}
